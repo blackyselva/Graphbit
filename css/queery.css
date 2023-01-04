@@ -1,0 +1,32 @@
+@media (min-width: 280px) {
+
+    /*Header Section*/
+
+    .hed-hed {
+        text-align: center;
+    }
+
+    .hed-hed h1 {
+        font-size: 35px;
+    }
+
+    .hed-img {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+
+    /*Header Section*/
+
+    .hed-hed {
+        text-align: center;
+    }
+
+    .hed-hed h1 {
+        font-size: 50px;
+    }
+
+}
