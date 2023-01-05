@@ -181,6 +181,10 @@ h1 {
     width: 100%;
 }
 
+.about-col {
+	overflow: hidden;
+}
+
 .about-box img {
     max-width: 100%;
 }
@@ -190,7 +194,7 @@ h1 {
 }
 
 .about-circle img {
-    max-width: 100%;
+    width: 100%;
     transition: all 0.3s ease-out 0s;
 }
 
@@ -789,7 +793,7 @@ h1 {
     width: 65%;
 }
 
-.con-icon img {
+.con-img img {
     max-width: 100%;
     font-size: 30px;
     transition: all 0.3s ease-out 0s;
