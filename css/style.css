@@ -26,10 +26,12 @@ h1 {
 }
 
 .nav-sec {
-    background: transparent;
-    position: sticky;
+    background: #131740cc;
+    position: fixed;
     top: 0;
-    z-index: 10;
+	right: 0;
+	left: 0;
+    z-index: 100;
 }
 
 .navbar-nav {
@@ -321,7 +323,7 @@ h1 {
     align-items: center;
 }
 
-.swap-col h2 {
+.swap-col h1 {
     font-size: 50px;
     padding: 20px 0;
     font-weight: 700;
@@ -410,8 +412,8 @@ h1 {
 /*Welcome Section*/
 
 #wel-sec {
-    background: #050830;
-    color: #fff;
+    background: #050830!important;
+    color: #fff!important;
 }
 
 .wel-row {
@@ -444,10 +446,6 @@ h1 {
     padding-top: 50px;
 }
 
-.wel-col1 {
-    padding-left: 40px;
-}
-
 .wel-col1 h1 {
     font-size: 50px;
     padding: 10px 0;
@@ -462,10 +460,6 @@ h1 {
     font-weight: 450;
     font-size: 18px;
     padding-bottom: 20px;
-}
-
-.wel-card {
-    padding-left: 30px;
 }
 
 /*Information Section*/
@@ -728,12 +722,10 @@ h1 {
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(img/dash-custom.svg)!important;
-    color: #FF06B7!important;
 }
 
 .accordion-button::after {
     background-image: url(img/plus-white.svg)!important;
-    color: #fff!important;
 }
 
 .faq-card button {
@@ -885,6 +877,22 @@ ul li:hover {
     cursor: pointer;
 }
 
+#scrolup {
+	background: #FF06B7;
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 25px;
+	right: 50px;
+	bottom: 88px;
+	position: fixed;
+	z-index: 10;
+}
+
 /*footer Section*/
 
 .footer-sec {
@@ -914,6 +922,28 @@ ul li:hover {
 .footer-box h6:hover {
     cursor: pointer;
     color: #FF06B7;
+}
+
+
+
+/*Media Queery*/
+
+@media (min-width: 280px) {
+	.container h1 {
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 320px) {
+	.container h1 {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 600px) {
+	.container h1 {
+		font-size: 50px;
+	}
 }
 
 
