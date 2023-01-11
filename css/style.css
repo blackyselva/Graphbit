@@ -17,6 +17,10 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+p {
+	font-size: 45px;
+}
+
 /*Nav Bar Section*/
 
 .nav-home {
@@ -91,7 +95,7 @@ h1 {
 
 .hed-hed h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -173,6 +177,7 @@ h1 {
 
 #about-sec {
     background: #050830;
+	padding: 30px 0;
 }
 
 .about-row {
@@ -305,6 +310,7 @@ h1 {
 
 .brand-sec {
     background: #050830;
+	padding: 30px 0;
 }
 
 .brand-con {
@@ -315,6 +321,7 @@ h1 {
 
 .swap-sec {
     background-color: #050830;
+	padding: 30px 0;
 }
 
 .swap-row {
@@ -414,6 +421,7 @@ h1 {
 #wel-sec {
     background: #050830!important;
     color: #fff!important;
+	padding: 30px 0;
 }
 
 .wel-row {
@@ -467,6 +475,7 @@ h1 {
 #info-sec {
     background: #0D102D;
     color: #fff;
+	padding: 30px 0;
 }
 
 .info-con {
@@ -527,7 +536,8 @@ h1 {
 #stock-sec {
     background: #101436;
     color: #fff;
-}
+
+padding: 30px 0;}
 
 .stock-con {
     padding: 100px 0;
@@ -624,6 +634,7 @@ h1 {
 .feat-sec {
     background: #0D102D;
     color: #fff;
+	padding: 30px 0;
 }
 
 .feat-row {
@@ -653,6 +664,7 @@ h1 {
 #faq-sec {
     background: #101436;
     color: #fff;
+	padding: 30px 0;
 }
 
 .faq-con {
@@ -677,39 +689,15 @@ h1 {
     color: #FF06B7;
 }
 
-.faq-p-color {
-    background: #FF06B7;
-    border: 1px solid #FF06B7;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #FF06B7!important;
 }
 
-.faq-p-color:hover {
-    cursor: pointer;
-}
-
-.faq-p {
-    border: 1px solid #131740;
-    padding: 10px 0 0 20px;
-    font-size: 18px;
-    transition: 0.7s;   
-}
-
-.faq-p:hover {
-    background: #FF06B7;
-    border: 1px solid #FF06B7;
-    cursor: pointer;
-}
-
-.faq-box {
-    padding: 30px;
-}
-
-.accordion-item {
-    margin: 0 0 30px 0;
-    background: #131740!important;
-}
-
-.faq-box1 {
-    padding: 30px;
+.nav-link {
+    text-align: start!important;
+    padding: 15px!important;
+    color: #fff !important;
+    font-size: 16px !important;
 }
 
 .faq-inner h2 button {
@@ -726,6 +714,24 @@ h1 {
 
 .accordion-button::after {
     background-image: url(img/plus-white.svg)!important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FF06B7!important;
+}
+
+.accordion-body {
+    background: #131740!important;
+    color: #fff!important;
+}
+
+.accordion-item {
+    margin-bottom: 20px!important;
+    border: none !important;
+}
+
+.accordion-header button {
+    font-size: 20px !important;
 }
 
 .faq-card button {
@@ -769,6 +775,7 @@ h1 {
 .con-sec {
     background: url(img/footer.png);
     color: #fff;
+	padding: 30px 0;
 }
 
 .con-con {
@@ -898,6 +905,7 @@ ul li:hover {
 .footer-sec {
     background: #131740;
     color: #fff;
+	padding: 20px 0;
 }
 
 .footer-con {
@@ -930,19 +938,31 @@ ul li:hover {
 
 @media (min-width: 280px) {
 	.container h1 {
-		font-size: 30px;
+		font-size: 25px;
+	}
+	
+	p {
+		font-size: 12px;
 	}
 }
 
 @media (min-width: 320px) {
 	.container h1 {
-		font-size: 40px;
+		font-size: 30px;
+	}
+	
+	p {
+		font-size: 14px;
 	}
 }
 
 @media (min-width: 600px) {
 	.container h1 {
-		font-size: 50px;
+		font-size: 40px;
+	}
+	
+	p {
+		font-size: 16px;
 	}
 }
 
